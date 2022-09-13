@@ -41,4 +41,21 @@ a {
 }
 a:hover {
   color: ghostwhite;
+  transition-duration: 2s;
+
+}
+
+.hamburger:hover #top{
+  transform: rotate(45deg) translateY(1em) translateX(1.2em);
+  transition-duration: 1s;
+}
+
+.hamburger:hover #bottom{
+  transform: rotate(-45deg) translateY(-1em) translateX(1em);
+  transition-duration: 1s;
+}
+
+.hamburger:hover #middle{
+  display: none;
+  transition-duration: 1s;
 }
